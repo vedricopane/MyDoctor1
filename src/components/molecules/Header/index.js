@@ -1,9 +1,8 @@
-import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {IconBackDark} from '../../../assets';
-import { Button, Gap } from '../../atoms';
-import { colors } from '../../../utils/colors';
+import { StyleSheet, Text, View } from 'react-native';
 import { fonts } from '../../../utils';
+import { colors } from '../../../utils/colors';
+import { Button, Gap } from '../../atoms';
 
 const Header = ({onPress, title}) => {
   return (
